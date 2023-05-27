@@ -10,8 +10,12 @@ from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 # from django.shortcuts import render
 import streamlit as st
 
-def streamlit_view(request):
-    return render(request, 'streamlit_app.html')
+def Homepage_view(request):
+    return render(request, 'Homepage.html')
+
+
+# def main_view(request):
+#     return render(request, 'main.html')
 
 
 # Read the Excel file into a Pandas DataFrame.

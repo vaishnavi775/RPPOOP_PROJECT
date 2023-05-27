@@ -87,7 +87,7 @@ if submit:
             st.text("Click below to upload a new file or continue in the sidebar with the default file")
             uploaded_file = st.file_uploader(
                 "Upload CSV or Excel file", type=["csv", "xls", "xlsx"])
-
+            
             # if uploaded_file is not None:
             #     df = read_file(uploaded_file)
             #     if df is not None:

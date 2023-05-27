@@ -5,5 +5,6 @@ urlpatterns = [
     path('', views.home, name="home"),
     path('login/', views.login_user, name='login'),
     path('logout/', views.logout_user, name='logout'),
-    path('streamlitapp/', views.streamlit_view, name='streamlitapp')
+    path('Homepage/', views.Homepage_view, name='Homepage'),
+    # path('Main/', views.main_view, name='main')
 ]
