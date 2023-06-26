@@ -1,1 +1,2 @@
-# django-login
+# Fest management system
+
